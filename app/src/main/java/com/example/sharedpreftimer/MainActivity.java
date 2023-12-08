@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         viewModelObserver();
         setScore();
 
-        CountDownTimer timer = new CountDownTimer(10000, 1000) {
+        CountDownTimer timer = new CountDownTimer(15000, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
                 textViewTimer.setText(getTime(millisUntilFinished));
